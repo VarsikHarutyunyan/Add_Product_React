@@ -1,0 +1,48 @@
+.Product-img {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    margin          : 20px 0;
+}
+
+.Product-img p {
+    margin    : 0 20px;
+    font-size : 20px;
+}
+
+.Product-img img {
+    width  : 150px;
+    height : 150px;
+}
+
+.Product-img button {
+    max-width        : 160px;
+    width            : 100%;
+    background-color : #343A40;
+    border-radius    : 4px;
+    color            : #fff;
+    cursor           : pointer;
+    padding          : 12px 16px;
+    outline          : none;
+    border           : none;
+    margin-left      : 20px;
+}
+
+.Product-img button:hover {
+    background-image : linear-gradient(
+            to right,
+            #E7484F,
+            #F68B1D,
+            #FCED00,
+            #009E4F,
+            #00AAC3,
+            #732982
+    );
+    animation        : slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position : 20vw;
+    }
+}

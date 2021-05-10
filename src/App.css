@@ -1,0 +1,21 @@
+.App {
+}
+
+.App-header ul {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-header ul li {
+    list-style : none;
+    margin     : 8px  15px;
+
+}
+
+.App-header ul li  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
